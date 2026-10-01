@@ -38,8 +38,11 @@ BoardNet is a CSE421(Computer Networks) course project for BRAC University made 
 1. Install Cisco Packet Tracer
 2. Open `project.pkt`
 3. Wait a few seconds for all links to turn green
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Testing Connectivity (Ping)
+
+
+# Testing Connectivity (Ping)
 Open the **Command Prompt** on any PC and run:
 ```
 ping 16.65.0.1
@@ -61,8 +64,11 @@ ping 16.65.5.130
 # From a DHK PC to a BAR PC
 ping 16.65.5.2
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Testing Web Services
+
+
+# Testing Web Services
 1. Open the **Web Browser** on any PC (click the PC → Desktop → Web Browser)
 2. Type one of the following URLs in the address bar:
 ```
@@ -71,7 +77,7 @@ www.ctg.edu.bd
 ```
 3. The hosted web page should load successfully from any board's PC
 
-### Testing Email Services
+# Testing Email Services
 1. Open the **Email** client on a PC (click the PC → Desktop → Email)
 2. Configure the email client with the following settings:
    - **Your Name:** (any name)
@@ -82,7 +88,7 @@ www.ctg.edu.bd
 3. Compose and send an email to a user in another board, e.g., `user@ctg.edu.bd`
 4. Open the recipient PC's email client and click **Receive** to verify the email arrived
 
-### Testing DNS Resolution
+# Testing DNS Resolution
 Open the **Command Prompt** on any PC and use `nslookup` to verify DNS:
 ```
 nslookup www.dhk.edu.bd
@@ -91,8 +97,10 @@ nslookup mail.dhk.edu.bd
 nslookup mail.ctg.edu.bd
 ```
 Each query should return the correct IP address resolved by the central DNS server in DHK.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Testing Route Failover (Backup Paths)
+
+# Testing Route Failover (Backup Paths)
 To verify that floating static routes work for KHU and BAR:
 
 1. **Check current route** — on the KHU or BAR router, open the CLI and run:
